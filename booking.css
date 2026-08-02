@@ -1,0 +1,78 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    padding:1em ;
+    margin: 2em auto;
+    background-color: rgb(125, 99, 126);
+    border-radius: 30px;
+    border-top: 5px solid rgb(100, 3, 84);
+    box-shadow: 2px 2px 9px rgb(28, 1, 54);
+}
+
+#res{
+    color: rgba(24, 10, 23, 0.514);
+    margin-top: 0;
+    padding-top: 10px;
+}
+.de1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.de2{
+    display: flex;
+    flex-direction: column;
+}
+.lebo{
+    color: rgb(91, 4, 91);
+    font-weight: 700;
+    font-size: 0.8rem;
+  
+}
+.de2 input{
+    border: 1.2px solid rgb(35, 2, 66);
+    margin-top: 0.5em auto;
+    padding: 0.8em;
+    border-radius: 5px;
+    color: rgb(173, 114, 161);
+    background-color: rgb(218, 186, 247);
+}
+.lob{
+    margin-top: 15px;
+    
+}
+.sele{
+    border: 1.2px solid rgb(66, 2, 66);
+    margin-top: 0.5em;
+    padding: 0.7em;
+    border-radius: 5px;
+    color: rgb(126, 24, 221);
+    background-color: rgb(218, 186, 247);
+}
+.clinf1{
+    margin-top: 2em;
+}
+#textarea{
+    border: 1.2px solid rgb(147, 39, 162);
+    margin-top: 0.5em;
+    padding: 0.7em;
+    border-radius: 5px;
+    color: rgb(81, 4, 78);
+    background-color: rgb(218, 186, 247);
+}
+#bknow{
+    padding: 0.6em 0;
+    margin-top: 1em;
+    border-radius: 8px;
+    border: none;
+    color: rgb(225, 207, 242);
+    background-color: rgb(53, 7, 52);
+    transition: all 0.5s ease;
+}
+#bknow:hover{
+    scale: 0.95;
+    transform: translateY(5px);
+    background-color: rgba(23, 5, 20, 0.584);
+}

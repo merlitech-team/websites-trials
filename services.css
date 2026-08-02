@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#services{
+    text-align: center;
+    padding: 1em;
+}
+.servicehead{
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(88, 1, 66);
+}
+.pp4{
+    color: rgba(95, 1, 76, 0.682);
+    font-size: 0.7rem;
+    font-weight: 600;
+     margin-bottom: 0;
+}
+.pp5{
+    position: relative;
+    color: rgb(29, 1, 23);
+    font-size: 5vw;
+    font-weight: 500;
+    margin: 0;
+}
+.pp6{
+    color: rgb(58, 31, 52);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2em auto;
+    width: 70vw;
+}
+.pp5::after{
+    position: absolute;
+    content: "";
+    height: 0.3px;
+    width: 100px;
+    background-color: rgb(29, 1, 23) ;
+    bottom: 0;
+    left: 8.4em;
+    
+}
+.row-6{
+    display: flex;
+    margin: auto;
+    margin-bottom: 1em;
+}
+.col-2{
+    background-color: rgb(239, 236, 239);
+    margin-right: 4px;
+    width: 64%;
+    padding: 1em;
+    border: 0.02px solid rgb(78, 1, 78);
+    box-shadow: 1px 1px 1px  rgb(34, 9, 34);
+    border-radius: 10px;
+}
+.pricerow{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    border-bottom: 1px solid rgb(106, 2, 106);
+    width: 90%; 
+    margin-bottom: 1em auto;
+    padding: 0;
+}   
+.pricerow:last-child{
+    border: none;
+}
+.heyadis{
+    margin: 0 ;
+    color: rgb(100, 64, 100);
+    font-weight: 400;
+    font-size: 0.7rem;
+
+}
+.heya{
+    color: rgb(106, 2, 106);
+    font-weight: 550;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}   
+.price{
+    color: rgb(42, 1, 42);
+    font-weight: 600;
+    font-size: 0.6rem;
+   
+    
+}
+.col-3{
+    width: 36%;
+    padding: 0.5em;
+    background-color: rgb(213, 142, 202);
+    border: 0.02px solid rgb(78, 1, 78);
+    box-shadow: 1px 1px 1px  rgb(34, 9, 34);
+    border-radius: 10px;
+   
+}
+.pricerow2{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(106, 2, 106) ;
+    padding: 0;
+}
+.pricerow2:nth-child(4){
+    border: none;
+}
+.heya2{
+    color: rgb(106, 2, 106);
+    font-weight: 550;
+    font-size: 0.8rem;
+}   
+.price2{
+    color: rgb(42, 1, 42);
+    font-weight: 600;
+    font-size: 0.6rem;
+    margin-bottom: 0;
+    
+}
+#manicure{
+    
+    margin: 0.4em auto;
+    width: 90%;
+    height: 200px;
+    background-image: url('treat2.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    border-radius: 10px;
+}
+.pricerow3{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.7em 0;
+    padding: 0;
+}
+.facialPic{
+    width: 50px;
+    height:50px;
+    background-color: blueviolet;
+    border-radius: 130px;
+}
+/*facial ans spa*/
+.row-7{
+    display: flex;
+    margin: auto;
+    gap: 0.2em;
+}
+.col-4{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1em;
+    background-color: rgb(213, 142, 202);
+    border: 0.02px solid rgb(78, 1, 78);
+    box-shadow: 1px 1px 1px  rgb(34, 9, 34);
+    border-radius: 10px;
+    text-align: left;
+}
+.face1{
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgb(113, 12, 105);
+}
+.facedis{
+    text-align: left;
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    color: rgb(40, 4, 37);
+}
+.price3{
+    color: rgb(42, 1, 42);
+    font-weight: 600;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    
+}
+/*wedding services*/
+.col-5{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 1em;
+    margin-left: 5px;
+    background-color: rgb(239, 236, 239);
+    border: 0.02px solid rgb(78, 1, 78);
+    box-shadow: 1px 1px 1px  rgb(34, 9, 34);
+    border-radius: 10px;
+}
+.pricerow4{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 20px;
+    background-color: rgb(180, 176, 180);
+}
+.serviceheads{
+    color: rgba(50, 2, 50, 0.625);
+    margin-top: 0;
+}
+.wedding{
+    display: flex;
+    justify-content: space-between;
+}
+.wed{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: rgb(113, 12, 105);
+}
+.wedprice{
+    margin-bottom: 0.2em;
+    color: rgb(42, 1, 42);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.weddis{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    font-size: 0.7rem;
+    color: rgb(40, 4, 37);
+    text-align: left;  
+}
+/*footer*/
+footer{
+    width: 100%;
+    background-color: rgb(147, 144, 149);
+    display: flex;
+    justify-content: space-evenly;   
+    padding-bottom: 3em;
+    padding-top: 3em;
+}
+.pfoot{
+    color: rgb(78, 2, 79);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.pfoots{
+    color: rgba(45, 4, 46, 0.686);
+    font-weight: 500;
+    margin-bottom: 0.4em;
+    font-size: 0.8rem;
+    text-decoration: none;
+
+}
+.pfootss{
+    color: rgba(45, 4, 46, 0.686);
+    font-weight: 500;
+    margin-bottom: 0.4em;
+    font-size: 0.8rem;
+    text-decoration: none;
+
+}
+.pfoots:hover{
+     color: rgb(78, 2, 79);
+}
+.footseg{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: left;
+}
+@media(max-width:600px){
+   .pp5::after{
+        position: absolute;
+        content: "";
+        height: 0.3px;
+        width: 80px;
+        background-color: rgb(29, 1, 23) ;
+        bottom: 0;
+        left: 7.5em;
+    
+    } 
+    .pp4{
+        font-size: 0.5rem;
+        font-weight: 600;
+        margin-bottom: 1em;
+    }
+    .row-6{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .col-3{
+        width: 80vw;
+        margin-top: 1em;
+        padding: 0.5em;
+        background-color: rgb(90, 57, 85);
+    }
+    .col-2{
+        background-color: rgb(239, 236, 239);
+        margin-right: 4px;
+        width: 80vw;
+        padding: 0.5em;
+    
+    }
+    .row-7{
+        display: flex;
+        flex-direction: column;
+    }
+    .col-4{
+        width: 80vw;
+        margin-top: 1em;
+        padding: auto;
+    }
+    .col-5{
+        width: 80vw;
+        margin-top: 1em;
+        padding: auto;
+    }
+    .comm{
+        position: sticky;
+        top: 2em;
+    }
+}

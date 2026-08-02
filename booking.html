@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
+    <link rel="stylesheet" href="stlys.css">
+    <link rel="stylesheet" href="services.css">
+</head>
+<body>
+     <header id="headss" class="heading">
+        <div class="row-1">
+            <div class="logo">
+                <img src="log.png" alt="logo" width="40px">
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <img onclick="show()" id="menu-btn" src="menubar.png" alt="menubar" width="30px">
+                <div id="menuBox">
+                    <ul class="menuList" id="dropmenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+    <form onsubmit="submitF(event)">
+        <p id="apoint">BOOK YOUR APPOINTMENT</p>
+        <p id="res">Fill in your details and i will comfirm via whatsApp</p>
+        <div class="clinf">
+            <div class="de1">
+                <div class="de2">
+                        <label for="nameu" class="lebo">YOUR NAME</label>
+                        <input type="text" placeholder="e.g Manochar Williams" id="clientName">
+                </div>
+                <div class="de2">
+                        <label for="numberu" class="lebo">WHATSAPP NUMBER</label>
+                        <input type="tel"  id="clientNo" placeholder=" +265*********">
+                </div>
+            </div>
+        </div>
+        <label for="Service" class="lebo lob" >SERVICE NEEDED</label>
+        <select name="Service" id="Service" class="sele">
+            <option value="">Choose Service</option>
+            <option value="1">style A</option>
+            <option value="2">style B</option>
+            <option value="3">style C</option>
+            <option value="4">style D</option>
+            <option value="5">style E</option>
+            <option value="6">style F</option>
+            <option value="7">style G</option>
+            <option value="8">style H</option>
+        </select>
+        <div class="clinf1">
+            <div class="de1">
+                <div class="de2">
+                        <label for="nameu" class="lebo">PREFERRED DATE</label>
+                        <input type="date" id="datee">
+                </div>
+                <div class="de2">
+                        <label for="numberu" class="lebo">PREFERRED TIME</label>
+                        <input type="time" id="timee">
+                </div>
+            </div>
+        </div>
+        <label for="textarea" class="lebo leb1">ADDITIONAL NOTES (OPTIONAL)</label>
+        <textarea name="discription" id="textarea" placeholder="style inspo, hair length, colour, any special request"></textarea>
+        <button id="bknow">BOOK NOW</button>
+    </form>
+    <footer>
+        <div class="footseg">
+            <p class="pfoot">Chawanagwa's Beauty parlor</p>
+            <p class="pfootss"> Elevating beauty to an art from through curated treatments and organic luxury </p>
+        </div>
+        <div class="footseg">
+            <p class="pfoot">CONNECT</p>
+            <a href="" class="pfoots" >Instagram</a>
+            <a href="" class="pfoots">Newsletter</a>
+            <a href="" class="pfoots">Contact</a>
+        </div>
+        <div class="footseg">
+            <p class="pfoot">LEGAL</p>
+            <a href="" class="pfoots"> Privacy Policy</a>
+            <a href="" class="pfoots">Terms of Service</a>
+            <p class="pfootss">&copy; 2024 The Chawanagwa Beauty Parlour All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script src="booking.js"></script>
+</body>
+</html>

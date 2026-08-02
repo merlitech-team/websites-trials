@@ -1,0 +1,47 @@
+.cont{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    height: 50px;
+    border: 1px solid rgb(148, 41, 248);
+    margin: 1em auto;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: rgb(223, 201, 243);
+    width: 80vw;
+}
+#contd{
+   
+    width: 80vw;
+    margin: auto;
+}
+.addis{
+    padding: 0;
+}
+.adiss{
+    transition: all 0.5s ease;
+}
+.adiss:hover{
+    transform: translateY(-5px);
+    background-color: rgb(205, 167, 240);
+}
+#adiss:active{
+    scale: 1.04;
+    background-color: rgb(128, 104, 150);
+}
+.coinf{
+    margin: 0;
+    padding: 0;
+    color: rgb(59, 2, 113);
+    font-weight: 600;
+}
+.coinf1{
+    margin-top: 3px;
+    padding: 0;
+    color: blueviolet;
+}
+.cont img{
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
