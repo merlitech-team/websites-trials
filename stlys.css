@@ -61,7 +61,7 @@ nav ul li{
 }
 .book-btn{
     background-color: var(--button-color);
-    padding: 0.64em;
+    padding: 0.8em;
     border: none;
     border-radius: 20px;
     color: white;
@@ -69,7 +69,7 @@ nav ul li{
 }
 .book-btn:hover{
     background-color:var(--button-hover) ;
-    scale: 1.08;
+    scale: 1.09;
 }
 .book-btn:active{
      background-color:  --button-active;
