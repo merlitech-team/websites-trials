@@ -317,5 +317,7 @@ footer{
     .comm{
         position: sticky;
         top: 2em;
+        left:3em
+        
     }
 }
